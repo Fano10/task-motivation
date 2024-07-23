@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/jour_semaine_lundi"
+        android:id="@+id/jour_semaine_lundi"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/jour_semaine_mardi"
+        android:id="@+id/jour_semaine_mardi"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/jour_semaine_mercredi"
+        android:id="@+id/jour_semaine_mercredi"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/jour_semaine_jeudi"
+        android:id="@+id/jour_semaine_jeudi"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/jour_semaine_vendredi"
+        android:id="@+id/jour_semaine_vendredi"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/jour_semaine_samedi"
+        android:id="@+id/jour_semaine_samedi"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/jour_semaine_dimanche"
+        android:id="@+id/jour_semaine_dimanche"
+        />
+
+</LinearLayout>

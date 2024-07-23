@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/schedule_layout">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/bleu">
+    </View>
+    <TextView
+        android:id="@+id/semaineDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/titre"
+        android:gravity="center_horizontal"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedule_scrollbar">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- T Heading -->
+            <TableRow
+                android:id="@+id/jourSemaine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TableRow>
+            <!--T Body -->
+            <TableRow
+                android:id="@+id/contenuSemaine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:id="@+id/schedule_permanent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/permanent"
+        android:textSize="20sp"
+        android:background="@color/bleu"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/schedule_occasionnel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occasionnel"
+        android:textSize="20sp"
+        android:background="@color/rose"/>
+</LinearLayout>

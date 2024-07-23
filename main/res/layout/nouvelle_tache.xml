@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nouvelleTache"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="9dp">
+
+
+    <CheckBox
+        android:id="@+id/Cocher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@android:color/holo_blue_dark"
+        android:paddingStart="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="15dp"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/typeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Cocher"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="40dp"
+        android:text=" " />
+
+    <ImageButton
+        android:id="@+id/Modifier"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/modifier"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>
